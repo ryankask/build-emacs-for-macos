@@ -746,6 +746,11 @@ class Build
       end
     end
 
+    # Custom: remove default macOS/NeXTSTEP keybindings
+    p << {
+      url: "file://" + File.join(__dir__, "patches/ns-win.patch")
+    }
+
     p
   end
 
