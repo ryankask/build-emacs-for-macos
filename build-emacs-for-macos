@@ -1269,7 +1269,7 @@ if __FILE__ == $PROGRAM_NAME
     tree_sitter: true,
     github_auth: true,
     dist_include: ['COPYING'],
-    archive: true,
+    archive: false,
     archive_keep: false
   }
 
