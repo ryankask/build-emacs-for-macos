@@ -1351,7 +1351,7 @@ if __FILE__ == $PROGRAM_NAME
     github_src_repo: nil,
     github_auth: true,
     dist_include: ['COPYING'],
-    archive: true,
+    archive: false,
     archive_keep: false,
     log_level: 'info'
   }
